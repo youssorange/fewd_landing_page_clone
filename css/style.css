@@ -1,0 +1,157 @@
+.div {
+  /*border: solid 1px Chocolate;*/
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
+  -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+.content {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+    padding: 0px 15px;
+    }
+
+
+
+/**
+* Navigation Section
+*/
+
+.top-navigation {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #DDD;
+  z-index: 9999;
+
+}
+
+.top-navigation > .content {   
+  height: 4.375em;
+  width: 970px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  z-index: 9999;
+
+}
+
+.top-navigation .logo {
+  height: 4.375rem;
+}
+
+
+.top-navigation .links {
+  float: right;
+  color: #838994;
+  font-size: 16px;
+  margin-top:25px;
+}
+
+ .top-navigation .links li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+
+ .top-navigation .links li:hover {
+  cursor: pointer;
+  color: #333333;
+}
+
+
+/**
+ * Introduction Section
+ */
+
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+.introduction h1,
+.introduction h3 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+
+  .introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+  
+  }
+
+   .introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+  }
+
+
+/**
+* The buttons
+*/
+
+.introduction .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+
+
+/**
+* button
+*/
+
+button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+    margin-right: 20px;
+
+
+}
+
+button:hover {
+  background-color: #d9400e;
+  border-color: #d9400e;
+  cursor: pointer;
+}
+
+
