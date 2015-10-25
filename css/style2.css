@@ -19,37 +19,41 @@ time, mark, audio, video {
     vertical-align: baseline;
     box-sizing: border-box;
 }
-
+/**
+ * HTML5 display-role reset for older browsers
+ */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
 ol, ul {
     list-style: none;
 }
-
+/**
+ * End of Reset
+ */
+/**
+ * Start of Custom Styles
+ */
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: #838994;
-  letter-spacing: 0.03em;
-  -webkit-font-smoothing: antialiased;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    box-sizing: border-box;
+    /*background-color: LightGray;*/
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
-
-
+div {
+    /*border: 1px solid Chocolate;*/
+}
 .content {
     padding: 0 0.938rem;
     margin: 0 auto;
     min-width: 37.5rem;
-    padding: 0px 15px;
-    }
-
+}
 :focus {
     outline: none;
 }
-
 
 /**
 * Navigation Section
@@ -66,11 +70,6 @@ body {
 
 .top-navigation > .content {   
   height: 4.375em;
-  width: 970px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  z-index: 9999;
-
 }
 
 .top-navigation .logo {
