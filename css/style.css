@@ -66,10 +66,8 @@ body {
 
 .top-navigation > .content {   
   height: 4.375em;
-  width: 970px;
   margin: 0 auto;
-  box-sizing: border-box;
-  z-index: 9999;
+
 
 }
 
@@ -135,21 +133,32 @@ body {
 
 
 /**
-* The buttons
-*/
-
+ * The buttons
+ */
 .introduction .buttons {
     color: white;
     text-align: center;
     margin-top: 1.563rem;
 }
+.introduction .half {
+    padding: 0 0.938rem;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
 
+.half.learn {
+    text-align: right;
+}
 
-/**
-* button
-*/
+.half.watch {
+    text-align: left;
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+}
 
-button {
+.introduction .learn button {
     width: 9.688rem;
     background-color: #f15a29;
     border-color: #f15a29;
@@ -159,15 +168,29 @@ button {
     padding: 1rem 1.5rem;
     color: white;
     font-size: 1.125rem;
-    margin-right: 20px;
-
-
 }
 
-button:hover {
-  background-color: #d9400e;
-  border-color: #d9400e;
+:focus {
+    outline: none;
+}
+
+.introduction .learn button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+
+.introduction .watch img {
+  position: relative;
+  top: 0.625rem;
+}
+
+.introduction .half.watch {
   cursor: pointer;
+}
+
+.introduction .half.watch :hover{
+  color: #d9400e;
 }
 
 /**
@@ -268,5 +291,7 @@ button:hover {
     font-weight: 300;
     color: #838994;
 }
+
+
 
 
