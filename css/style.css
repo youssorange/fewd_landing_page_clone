@@ -44,6 +44,7 @@ body {
     margin: 0 auto;
     min-width: 37.5rem;
     padding: 0px 15px;
+    width: 970px;
 }
 
 :focus {
@@ -68,7 +69,6 @@ body {
   height: 4.375em;
   margin: 0 auto;
   width: 970px;
-
 
 }
 
