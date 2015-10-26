@@ -44,7 +44,7 @@ body {
     margin: 0 auto;
     min-width: 37.5rem;
     padding: 0px 15px;
-}
+    }
 
 :focus {
     outline: none;
@@ -67,7 +67,6 @@ body {
 .top-navigation > .content {   
   height: 4.375em;
   margin: 0 auto;
-  width: 970px;
 
 
 }
